@@ -1,65 +1,63 @@
-
 🚦 Smart City Annotator
-Smart City Annotator یک ابزار هوشمند برای برچسب‌گذاری تصاویر شهری در پروژه‌های هوش مصنوعی و شهر هوشمند است.
-این نسخه فعلی پروژه فقط از Image Annotation (Object Detection) پشتیبانی می‌کند و سایر ماژول‌ها در نسخه‌های آینده اضافه خواهند شد.
-📌 معرفی پروژه
-در سیستم‌های شهر هوشمند، داده‌های تصویری از دوربین‌های نظارتی، ترافیکی و امنیتی جمع‌آوری می‌شوند.
-برای آموزش مدل‌های هوش مصنوعی مانند YOLO یا سایر مدل‌های بینایی ماشین، نیاز به داده‌های برچسب‌گذاری‌شده داریم.
-Smart City Annotator ابزاری ساده و کاربردی برای:
-• رسم Bounding Box روی تصاویر
-• تعیین کلاس برای اشیا
-• ذخیره داده‌ها برای آموزش مدل‌های AI
-می‌باشد.
-🎯 کاربردها
-• 🚗 تشخیص وسایل نقلیه
-• 🚦 تحلیل ترافیک شهری
-• 🚶‍♂️ تشخیص عابر پیاده
-• 🏙 پروژه‌های نظارتی شهری
-• 📊 آماده‌سازی دیتاست برای آموزش مدل‌های بینایی ماشین
-✨ امکانات نسخه فعلی
-✅ بارگذاری تصویر
-✅ رسم Bounding Box
-✅ انتخاب کلاس برای هر شی
-✅ ذخیره Annotation
-✅ آماده‌سازی داده برای مدل‌های Object Detection
-⚠️ توجه: در حال حاضر فقط بخش Image Annotation فعال است.
-🛠 تکنولوژی‌های استفاده شده
+Smart City Annotator is an intelligent tool for annotating urban images in Artificial Intelligence and Smart City projects.
+The current version of the project supports only Image Annotation (Object Detection). Additional modules will be added in future releases.
+📌 Project Introduction
+In smart city systems, visual data is collected from surveillance, traffic, and security cameras.
+To train AI models such as YOLO and other computer vision models, properly annotated datasets are required.
+Smart City Annotator is a simple and practical tool for:
+• Drawing bounding boxes on images
+• Assigning classes to objects
+• Saving annotated data for AI model training
+🎯 Applications
+• 🚗 Vehicle detection
+• 🚦 Urban traffic analysis
+• 🚶‍♂️ Pedestrian detection
+• 🏙 Urban monitoring projects
+• 📊 Dataset preparation for computer vision model training
+✨ Current Version Features
+✅ Image loading
+✅ Bounding box drawing
+✅ Class selection for each object
+✅ Annotation saving
+✅ Dataset preparation for Object Detection models
+⚠️ Note: Currently, only the Image Annotation module is active.
+🛠 Technologies Used
 • Python
 • OpenCV
 • NumPy
-• Tkinter / رابط گرافیکی پایتون
-🚀 نحوه نصب
-ابتدا پروژه را کلون کنید:
-git clone https://github.com/KhwajaSulaimanSiddiqi/Smart-City.git
-سپس کتابخانه‌ها را نصب کنید:
+• Tkinter (Python GUI Interface)
+🚀 Installation
+First, clone the repository:
+git clone https://github.com/KhwajaSulaimanSiddiqi/Smart-City.git 
+Then install the required libraries:
 pip install opencv-python numpy 
-▶️ نحوه اجرا
+▶️ How to Run
 python Smart_City_Annotator.py 
-پس از اجرا:
-• تصویر مورد نظر را باز کنید
-• روی تصویر Bounding Box رسم کنید
-• کلاس مورد نظر را انتخاب کنید
-• فایل Annotation را ذخیره کنید
-خروجی در پوشه output/ ذخیره می‌شود.
-📤 فرمت خروجی
-در حال حاضر خروجی برای آموزش مدل‌های Object Detection آماده می‌شود (قابل استفاده در YOLO و مدل‌های مشابه).
-🔮 برنامه‌های آینده (Future Plans)
-در نسخه‌های بعدی، ماژول‌های زیر اضافه خواهند شد:
-• 🎥 پشتیبانی از Video Annotation
-• 🧠 اتصال مستقیم به مدل‌های YOLO برای پیشنهاد خودکار
+After running the program:
+• Open the desired image
+• Draw bounding boxes on the image
+• Select the appropriate class
+• Save the annotation file
+The output will be saved in the output/ folder.
+📤 Output Format
+Currently, the output is prepared for training Object Detection models (compatible with YOLO and similar frameworks).
+🔮 Future Plans
+In future versions, the following modules will be added:
+• 🎥 Video Annotation support
+• 🧠 Direct integration with YOLO models for automatic suggestions
 • 🏷 Semantic Segmentation
-• 📝 Named Entity Recognition (برای داده‌های متنی شهری)
+• 📝 Named Entity Recognition (for urban textual data)
 • 🔊 Audio Annotation
 • 📊 Time-Series Data Annotation
-• 🌐 نسخه تحت وب
-• 💾 اتصال به دیتابیس
-🤝 مشارکت
-برای مشارکت در توسعه پروژه:
-• Fork کنید
-• Branch جدید بسازید
-• تغییرات را اعمال کنید
-• Pull Request ارسال کنید
-📄 لایسنس
-این پروژه تحت لایسنس MIT منتشر شده است.
-👨‍💻 توسعه‌دهنده
+• 🌐 Web-based version
+• 💾 Database integration
+🤝 Contribution
+To contribute to the project:
+• Fork the repository
+• Create a new branch
+• Apply your changes
+• Submit a Pull Request
+📄 License
+This project is released under the MIT License.
+👨‍💻 Developer
 Khwaja Sulaiman Siddiqi
