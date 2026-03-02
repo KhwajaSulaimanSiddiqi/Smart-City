@@ -31,7 +31,7 @@ Smart City Annotator ابزاری ساده و کاربردی برای:
 • Tkinter / رابط گرافیکی پایتون
 🚀 نحوه نصب
 ابتدا پروژه را کلون کنید:
-git clone https://github.com/your-username/Smart-City-Annotator.git cd Smart-City-Annotator 
+(https://github.com/KhwajaSulaimanSiddiqi/Smart-City/tree/main) 
 سپس کتابخانه‌ها را نصب کنید:
 pip install opencv-python numpy 
 ▶️ نحوه اجرا
