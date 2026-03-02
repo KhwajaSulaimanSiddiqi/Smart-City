@@ -1,4 +1,3 @@
-# Smart-City
 
 🚦 Smart City Annotator
 Smart City Annotator یک ابزار هوشمند برای برچسب‌گذاری تصاویر شهری در پروژه‌های هوش مصنوعی و شهر هوشمند است.
@@ -31,7 +30,7 @@ Smart City Annotator ابزاری ساده و کاربردی برای:
 • Tkinter / رابط گرافیکی پایتون
 🚀 نحوه نصب
 ابتدا پروژه را کلون کنید:
-(https://github.com/KhwajaSulaimanSiddiqi/Smart-City/tree/main) 
+git clone https://github.com/KhwajaSulaimanSiddiqi/Smart-City.git
 سپس کتابخانه‌ها را نصب کنید:
 pip install opencv-python numpy 
 ▶️ نحوه اجرا
